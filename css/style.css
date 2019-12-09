@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+    transition: all .2s ease-in-out;
+}
+header{
+    text-align: center;
+    margin: 2em;
+}
+/* Container  Flex*/
+.container{
+    width: 95%;
+    margin: 0 auto;
+    background: rgb(252, 252, 252);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+article{
+    text-align: center;
+    margin: 1em;
+    background-color: rgb(255, 255, 255);
+    transition: all .5s ease-in-out;
+}
+article p{
+    padding: 1em 0;
+    color: black;
+    opacity: .3;
+}
+.box{
+    margin-top: 2em;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 35vh;
+    width: 28vw;
+    opacity: .7;
+}
+.pic1{
+    background-image: url("/img/dog.jpg");
+}
+.pic2{
+    background-image: url("https://source.unsplash.com/random?2");
+}
+.pic3{
+    background-image: url("https://source.unsplash.com/random?3");
+}
+.pic4{
+    background-image: url("https://source.unsplash.com/random?4");
+}
+.pic5{
+    background-image: url("https://source.unsplash.com/random?5");
+}
+.pic6{
+    background-image: url("https://source.unsplash.com/random?6");
+}
+.pic7{
+    background-image: url("https://source.unsplash.com/random?7");
+}
+.pic8{
+    background-image: url("https://source.unsplash.com/random?8");
+}
+.pic9{
+    background-image: url("https://source.unsplash.com/random?9");
+}
+/* Hover  */
+.box:hover{
+    opacity: 1;
+    height: 37vh;
+    width: 30vw;
+}
+.box:hover~p {
+    opacity: 1;
+}
+article:hover{
+    box-shadow:  4px 8px 16px rgba(0, 0, 0, 0.6);
+}
